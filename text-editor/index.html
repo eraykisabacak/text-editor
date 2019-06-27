@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="style.css">
+   <title>Text Editor</title>
+</head>
+<body>
+   <div class="editor">
+      <div class="header">         
+         <ul id="menu">
+            <li><img src="icons/bold.png" id="b" alt="bold"></li>
+            <li><img src="icons/italic.png" id="i" alt="italic"></li>
+            <li><img src="icons/underline.png" id="underline" alt="underline"></li>
+            <li><img src="icons/highlighter.png" id="highlighter" alt="highlighter"></li>
+            <li><img src="icons/highlighterFalse.png" id="highlighterFalse" alt="unhighlighter"></li>
+            <li><img src="icons/incs.png" id="increase" alt="increase" srcset=""></li>
+            <li><img src="icons/decrs.png" id="decrease" alt="decrease"></li>           
+         </ul> 
+      </div>
+      <hr>
+      <div class="textarea" id="text" contenteditable="true" placeholder="Write here..." ></div>
+   </div>
+</body>
+<script src="main.js"></script>
+</html>
